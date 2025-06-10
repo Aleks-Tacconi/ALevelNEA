@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "neanew"
+version = "0.1.0"
+description = ""
+authors = ["Aleks Tacconi <aleks.tacconi@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+customtkinter = "^5.2.2"
+keyboard = "^0.13.5"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
